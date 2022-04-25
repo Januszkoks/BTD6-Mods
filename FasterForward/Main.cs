@@ -25,27 +25,27 @@ namespace FasterForward
         public override void OnUpdate()
         {
             int lastSpeed = speed;
-            if (Input.GetKeyDown(KeyCode.F1))
+            if (Input.GetKeyDown(KeyCode.F6))
             {
                 speed = 3;
             }
 
-            if (Input.GetKeyDown(KeyCode.F2))
+            if (Input.GetKeyDown(KeyCode.F7))
             {
                 speed = 5;
             }
 
-            if (Input.GetKeyDown(KeyCode.F3))
+            if (Input.GetKeyDown(KeyCode.F8))
             {
                 speed = 10;
             }
 
-            if (Input.GetKeyDown(KeyCode.F4))
+            if (Input.GetKeyDown(KeyCode.F9))
             {
                 speed = 25;
             }
 
-            if (Input.GetKeyDown(KeyCode.F5))
+            if (Input.GetKeyDown(KeyCode.F10))
             {
                 PopupScreen.instance.ShowSetValuePopup("Custom Fast Forward Speed",
                     "Sets the Fast Forward speed to the specified value",
